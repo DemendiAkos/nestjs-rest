@@ -9,8 +9,6 @@ export class ReplaceProductDto {
 
     @IsDefined({
         message: 'Price is required',
-        
-
     })
     @IsNumber()
     @Min(1, {
